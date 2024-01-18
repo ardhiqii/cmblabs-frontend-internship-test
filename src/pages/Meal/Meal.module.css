@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  width: 80%;
+  padding-top: 75px;
+  margin: auto;
+  color: #1e2128;
+}
+
+.container h2{
+  text-decoration: underline;
+  text-decoration-color: #f4ab56;
+}
+
+.title{
+  text-decoration: underline;
+  text-decoration-color: #f4ab56;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  row-gap: .3rem;
+  padding-bottom: .5rem;
+}
+.informationContainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.imageContainer {
+  width: 40%;
+  min-width: 200px;
+  max-width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+.imageContainer img {
+  width: 100%;
+}
+
+.ingredientsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  height: 200px;
+  flex-wrap: wrap;
+}
+
+.instructionContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+}
+
+.youtubeContainer {
+  width: 80%;
+  height: 30vw;
+  max-height: 500px;
+  min-height: 200px;
+  margin: auto;
+}
+
+.youtubeContainer iframe{
+  width: 100%;
+  height: 100%;
+  
+}
+
+@media screen and (max-width:1024px) {
+  .title{
+    text-align: center;
+  }
+  h1{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 16px;
+    text-align: center;
+  }
+  .ingredientsContainer{
+    height: 100%;
+  }
+  span,p{
+    font-size: 12px;
+  }
+}

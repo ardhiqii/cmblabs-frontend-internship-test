@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5rem;
+  padding-bottom: 10rem;
+}
+
+.introBackground{
+  background-color: #1e2128;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.introContainer {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 3rem 0;
+}
+
+.textContainer {
+  width: 40%;
+  display: flex;
+  row-gap: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textContainer h1 span{
+  color: #f4ab56;
+}
+
+.textContainer p{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.triviasContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trivia{
+  display: flex;
+  flex-direction: column;
+}
+.trivia h1{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.trivia h3{
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.imageContainer {
+  max-width: 350px;
+  min-width: 200px;
+  width: 40%;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+
+.categoriesContainer{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+}
+
+.header{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e2128;
+  text-decoration: underline;
+  text-decoration-color: #f4ab56;
+}
+
+
+@media screen and (max-width:1024px) {
+  .introContainer{
+    width: 90%;
+    flex-direction: column-reverse;
+    row-gap: 1rem;
+  }
+  .textContainer{
+    width: 100%;
+  }
+  .imageContainer{
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  
+  .textContainer h1{
+    font-size: 20px;
+  }
+  .textContainer p{
+    font-size: 10px;
+  }
+
+  .header{
+    font-size: 2rem;
+  }
+}

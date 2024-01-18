@@ -1,0 +1,25 @@
+.container{
+  width: 90%;
+  margin: auto;
+  padding-top: 75px;
+  display: flex;
+  row-gap: 3rem;
+  flex-direction: column;
+}
+
+.header{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1e2128;
+  text-decoration: underline;
+  text-decoration-color: #f4ab56;
+}
+
+.mealsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
